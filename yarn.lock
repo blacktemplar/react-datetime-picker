@@ -4463,15 +4463,13 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-calendar@^2.17.4:
-  version "2.17.4"
-  resolved "https://registry.yarnpkg.com/react-calendar/-/react-calendar-2.17.4.tgz#95aeb1545159b97727f152f091ef563624dfd70c"
-  integrity sha512-rNpq5R6awa3Krb8rcgBsD6/KkGKvAUGL/jcBvO9f3ikzrRAsBPwQrsu7stiahup0khFfAPRNT5DKaMMNS2bAgQ==
+"react-calendar@https://github.com/blacktemplar/react-calendar/tarball/521efbe80961ad28cdc5cab9826a5ebb819b8ec8":
+  version "2.12.0"
+  resolved "https://github.com/blacktemplar/react-calendar/tarball/521efbe80961ad28cdc5cab9826a5ebb819b8ec8#8648250afd9b74b57407f71a240f5a3faeeba1d3"
   dependencies:
-    get-user-locale "^1.1.1"
+    lodash.once "^4.1.1"
     merge-class-names "^1.1.1"
     prop-types "^15.6.0"
-    react-lifecycles-compat "^3.0.4"
 
 react-clock@^2.3.0:
   version "2.3.0"
@@ -4481,18 +4479,15 @@ react-clock@^2.3.0:
     merge-class-names "^1.1.1"
     prop-types "^15.6.0"
 
-react-date-picker@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/react-date-picker/-/react-date-picker-7.1.0.tgz#22867b46100222133a4a12a06d0bd1c47b75318c"
-  integrity sha512-8Ol4wYy8JqBrwz9LEALhX6r0DzuX0NzG2wGwfM//ZxTEp91bITH03ABpZe2+W/zhr287PAGJU6uvKPGd/SMXEA==
+"react-date-picker@https://github.com/blacktemplar/react-date-picker/tarball/1efc92e29f8d34f984b31051c78b46a862f2f79d":
+  version "6.6.2"
+  resolved "https://github.com/blacktemplar/react-date-picker/tarball/1efc92e29f8d34f984b31051c78b46a862f2f79d#937667b1f0728fb6258e294d2c9db86069a4f6b9"
   dependencies:
     detect-element-overflow "^1.1.1"
-    get-user-locale "^1.1.1"
-    make-event-props "^1.1.0"
+    lodash.once "^4.1.1"
     merge-class-names "^1.1.1"
     prop-types "^15.6.0"
-    react-calendar "^2.17.4"
-    react-lifecycles-compat "^3.0.4"
+    react-calendar "https://github.com/blacktemplar/react-calendar/tarball/521efbe80961ad28cdc5cab9826a5ebb819b8ec8"
 
 react-dom@^16.5.0:
   version "16.5.0"
