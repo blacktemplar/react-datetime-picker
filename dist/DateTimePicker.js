@@ -96,6 +96,23 @@ var DateTimePicker = function (_Component) {
       _this.setState(function (prevState) {
         return { isCalendarOpen: !prevState.isCalendarOpen };
       });
+    }, _this.onDateChange = function (value) {
+      var closeWidgets = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+      var prevValue = _this.props.value;
+
+
+      if (prevValue) {
+        var valueWithHour = new Date(value);
+        valueWithHour.setHours(prevValue.getHours(), prevValue.getMinutes(), prevValue.getSeconds(), prevValue.getMilliseconds());
+
+        _this.onChange(valueWithHour, closeWidgets);
+      } else {
+        _this.onChange(value, closeWidgets);
+      }
+    }, _this.onTimeChange = function (value) {
+      var closeWidgets = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+
+      _this.onChange(value, closeWidgets);
     }, _this.onChange = function (value) {
       var closeWidgets = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
 
@@ -182,7 +199,7 @@ var DateTimePicker = function (_Component) {
           maxDate: maxDate,
           minDate: minDate,
           name: name,
-          onChange: this.onChange,
+          onChange: this.onTimeChange,
           placeholder: this.placeholder,
           required: required,
           value: value
@@ -249,7 +266,7 @@ var DateTimePicker = function (_Component) {
         },
         _react2.default.createElement(_entry2.default, _extends({
           className: calendarClassName,
-          onChange: this.onChange
+          onChange: this.onDateChange
         }, calendarProps))
       );
     }
