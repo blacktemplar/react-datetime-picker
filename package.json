@@ -51,7 +51,7 @@
     "react-calendar": "https://github.com/blacktemplar/react-calendar/tarball/521efbe80961ad28cdc5cab9826a5ebb819b8ec8",
     "react-clock": "^2.2.0",
     "react-date-picker": "https://github.com/blacktemplar/react-date-picker/tarball/1efc92e29f8d34f984b31051c78b46a862f2f79d",
-    "react-time-picker": "^2.1.2"
+    "react-time-picker": "https://github.com/blacktemplar/react-time-picker/tarball/8e0208635333835c62ecccddc8db4f699f789a6e"
   },
   "peerDependencies": {
     "react": ">=15.5",

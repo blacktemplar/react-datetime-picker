@@ -3692,17 +3692,15 @@ react-test-renderer@^16.0.0-0, react-test-renderer@^16.2.0:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-time-picker@^2.1.2:
+"react-time-picker@https://github.com/blacktemplar/react-time-picker/tarball/8e0208635333835c62ecccddc8db4f699f789a6e":
   version "2.1.2"
-  resolved "https://registry.yarnpkg.com/react-time-picker/-/react-time-picker-2.1.2.tgz#1fb7c1e012de309a480bc023ed5fbb4499a0c689"
+  resolved "https://github.com/blacktemplar/react-time-picker/tarball/8e0208635333835c62ecccddc8db4f699f789a6e#47c9e295f5a9395a1068d38c75eec73f7b9c5665"
   dependencies:
     detect-element-overflow "^1.1.1"
     lodash.once "^4.1.1"
     merge-class-names "^1.1.1"
     prop-types "^15.6.0"
-    react ">=15.5"
     react-clock "^2.2.0"
-    react-dom ">=15.5"
 
 react@>=15.5:
   version "16.2.0"
