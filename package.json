@@ -48,9 +48,9 @@
     "lodash.once": "^4.1.1",
     "merge-class-names": "^1.1.1",
     "prop-types": "^15.6.0",
-    "react-calendar": "https://github.com/blacktemplar/react-calendar/tarball/521efbe80961ad28cdc5cab9826a5ebb819b8ec8",
+    "react-calendar": "https://github.com/blacktemplar/react-calendar/tarball/ae8f754042e4e66972d07582ffa53783c07ea677",
     "react-clock": "^2.2.0",
-    "react-date-picker": "https://github.com/blacktemplar/react-date-picker/tarball/1efc92e29f8d34f984b31051c78b46a862f2f79d",
+    "react-date-picker": "https://github.com/blacktemplar/react-date-picker/tarball/49e86f08ad89d5b4c49d4fab596ff56fe9a3692e",
     "react-time-picker": "https://github.com/blacktemplar/react-time-picker/tarball/ea814708664a1d1ab7d8bf8c24d588ea1d88c20f"
   },
   "peerDependencies": {
