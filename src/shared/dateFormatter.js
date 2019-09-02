@@ -21,18 +21,18 @@ const getFormatter = (options, locales = getLocale()) => {
 };
 
 export const formatDate = date => getFormatter(
-  { day: 'numeric', month: 'numeric', year: 'numeric' },
+  { day: '2-digit', month: '2-digit', year: 'numeric' },
 )(date);
 
 export const formatTime = date => getFormatter(
-  { hour: 'numeric', minute: 'numeric', second: 'numeric' },
+  { hour: '2-digit', minute: '2-digit', second: '2-digit' },
 )(date);
 
 export const formatDateTime = date => getFormatter({
-  day: 'numeric',
-  month: 'numeric',
+  day: '2-digit',
+  month: '2-digit',
   year: 'numeric',
-  hour: 'numeric',
-  minute: 'numeric',
-  second: 'numeric',
+  hour: '2-digit',
+  minute: '2-digit',
+  second: '2-digit',
 })(date);
